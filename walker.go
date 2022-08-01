@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/fileutils"
 	"github.com/pkg/errors"
+	"github.com/tonistiigi/fsutil/pkg/fileutils"
 	"github.com/tonistiigi/fsutil/types"
 )
 

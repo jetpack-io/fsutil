@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/pkg/fileutils"
 	"github.com/pkg/errors"
 	"github.com/tonistiigi/fsutil"
+	"github.com/tonistiigi/fsutil/pkg/fileutils"
 )
 
 var bufferPool = &sync.Pool{
